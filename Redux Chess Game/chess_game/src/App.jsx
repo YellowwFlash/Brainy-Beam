@@ -25,7 +25,7 @@ function App() {
                 key={colIndex}
                 style={{
                   ...style.cell,
-                  backgroundColor: col, // Set color dynamically
+                  backgroundColor: col, 
                 }}
                 onClick={() => handleCellClick(rowIndex, colIndex)}
               />

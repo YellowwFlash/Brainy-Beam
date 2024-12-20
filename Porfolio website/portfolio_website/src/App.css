@@ -1,4 +1,3 @@
-/* App.css */
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -17,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px; /* Reduced padding to minimize height */
+  padding: 10px 20px; 
   width: 100%;
   background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -27,9 +26,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Take full width of header */
-  max-width: 1200px; /* Optional: limit max width for better alignment */
-  margin: auto; /* Center the content */
+  width: 100%; 
+  max-width: 1200px; 
+  margin: auto; 
 }
 
 .logo-section {
@@ -37,19 +36,19 @@ body {
 }
 
 .site-title {
-  font-size: 1.8rem; /* Adjusted font size for better fit */
+  font-size: 1.8rem; 
   font-weight: bold;
   color: #fff;
 }
 
 .site-tagline {
-  font-size: 0.9rem; /* Adjusted font size for better fit */
+  font-size: 0.9rem; 
   color: #8eaebd;
 }
 
 .navigation {
   display: flex;
-  gap: 15px; /* Reduced gap for closer spacing */
+  gap: 15px; 
 }
 
 .nav-link {
