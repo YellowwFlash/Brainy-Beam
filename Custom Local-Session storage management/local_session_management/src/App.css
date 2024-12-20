@@ -1,0 +1,128 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f0f4f8;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title and Description */
+.app-title {
+  font-size: 2rem;
+  color: #5c6bc0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.app-description {
+  font-size: 1.1rem;
+  color: #777;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+/* Input Section */
+.input-wrapper {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-label {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.input-field {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #5c6bc0;
+  box-shadow: 0 0 8px rgba(92, 107, 192, 0.3);
+}
+
+/* Storage Display */
+.storage-display {
+  margin-bottom: 20px;
+}
+
+.storage-text {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Toggle Section */
+.toggle-wrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-label {
+  font-size: 1rem;
+  color: #555;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 10px;
+  transform: scale(1.3);
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+  color: #777;
+  font-size: 1rem;
+}
+
+.footer-text {
+  font-style: italic;
+}
+
+input[type="text"],
+input[type="checkbox"] {
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:hover {
+  border-color: #5c6bc0;
+}
+
+input[type="checkbox"]:hover {
+  transform: scale(1.4);
+}
